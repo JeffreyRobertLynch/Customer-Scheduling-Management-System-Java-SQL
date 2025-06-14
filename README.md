@@ -1,7 +1,7 @@
 # Customer-Scheduling-Management-System-Java-SQL
 
 Welcome to the **Customer Scheduling Management System**!  
-This full-featured Java application allows users to maintain a robust database of customers and appointments — complete with support for all time zones and 15 languages.
+This full-featured Java application allows users to maintain a robust database of customers and appointments — **complete with support for all time zones and 15 languages**.
 
 ---
 
@@ -70,10 +70,10 @@ Generate four types of reports:
 
 ## 🏅 Awards
 
-🏆 *Academic Excellence Award*  
+🏆 *Academic Excellence Award - Software 2: Advanced Java Concepts*  
 Awarded by the Vice President of Evaluation Operations for outstanding performance in "Software 2: Advanced Java Concepts". The evaluator shared the following:
 
-“Overall, the student's project submission is excellent in that it is an example of quality in work, considering the provided requirements. The backend is informative and organized, while the frontend is easy to use and functional. Excellent job!”
+**“Overall, the student's project submission is excellent in that it is an example of quality in work, considering the provided requirements. The backend is informative and organized, while the frontend is easy to use and functional. Excellent job!”**
 
 ---
 
