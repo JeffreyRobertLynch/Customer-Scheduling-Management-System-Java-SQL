@@ -1,50 +1,89 @@
 # Customer-Scheduling-Management-System-Java-SQL
 
-Welcome to the Customer Scheduling Management System!
+Welcome to the **Customer Scheduling Management System**!  
+This full-featured Java application allows users to maintain a robust database of customers and appointments — complete with support for all time zones and 15 languages.
 
-This application includes a variety of features that will allow the User to easily maintain a database of customers and appointments across multiple time zones and languages.
+---
 
-Features Include:
+## 🚀 Features
 
-* Create, Read, Update, and Delete functionality for Appointments and Customers within the database.
+- **CRUD Functionality**: Create, Read, Update, and Delete Appointments and Customers in a MySQL database  
+- **Multi-language Support**: UI elements auto-translate based on system language settings  
+- **Time Zone Conversion**: Automatically adjusts appointment times based on user’s system time zone  
+- **Login Security**: Basic password-protected login screen to prevent unauthorized access  
+- **Login Activity Log**: Records all log-in attempts with timestamp, user, language, time zone, and result (success/failure)  
+- **User-Friendly UI**: Interactive and responsive JavaFX interface with confirmation messages, error handling, and alerts  
+- **Dashboard & Reports**:
+  - Filterable appointment table by week/month
+  - Four distinct real-time reports for business insights:
+    - **Contact Schedule**
+    - **Appointments by Type and Month**
+    - **Appointments by Contact and Month**
+    - **Appointments by Customer and Month**
 
-* Multi-language support that automatically translates UI elements based on the User's language system setting.
+---
 
-* Recognition of the User's time zone based on the User's system settings and automatic time zone conversion for appointment times.
+## 🧭 Navigation Overview
 
-* Login screen to prevent unauthorized User access using basic(no hashing or salting) password protection.
+### 🔐 Login Screen
+- Enter valid username/password (stored in the MySQL database)
+- System logs each attempt and notifies users of upcoming appointments within 15 minutes
 
-* Creates a text log for all log-in activity. Records User Name, User Language, User Time Zone, Timestamp, and Success/Failure of the attempt.
+### 📅 Appointment Main Screen
+- View filterable table of all appointments
+- Add, update, or delete appointments
+- Navigate to Customer Main, Reports, or Exit
 
-* Appointment Main screen with a Filterable Table Display for Appointment data.
+### 👥 Customer Main Screen
+- View and manage customer records
+- Navigate to Appointment Main, Reports, or Exit
 
-* Customer Main screen with Table Display for Customer data.
+### 📊 Reports Main Screen
+Generate four types of reports:
+1. **Contact Schedule** – View appointments per contact  
+2. **Appointments by Type and Month** – Understand customer trends  
+3. **Appointments by Contact and Month** – Evaluate contact performance  
+4. **Appointments by Customer and Month** – Track customer activity  
 
-* Report Dashboard that generates four distinct reports for up-to-date, data-driven insights.
+---
 
-* Generate up-to-date Appointment Schedules for Contacts.
+## 🛠️ Tech Stack
 
-* User-friendly UI that displays messages to the User for information, confirmation, error handling, and warnings.
+- **Java Version**: Oracle OpenJDK 17.0.8  
+- **IDE**: IntelliJ IDEA Community Edition 2023.2  
+- **UI Framework**: JavaFX 17.0.8  
+- **Database**: MySQL  
+- **Connector**: mysql-connector-java-8.0.26  
 
-Author: Jeffrey Robert Lynch 
+---
 
-Application Version: Version 1.0
-Date: 04/12/2024
+## 📎 Setup Instructions
 
-IDE Version: Intellij IDEA Community Edition 2023.2
-JDK Version: Oracle Open JDK Version 17.0.8
-MySQL Connector Version: mysql-connector-java-8.0.26
-JavaFX Version: JavaFX 17.0.8
+> ⚠️ This application requires an active MySQL database to run. Without it, login authentication and functionality will not work.
 
+1. Clone or download the repo  
+2. Ensure your database schema matches the app's structure  
+3. Run the application via IntelliJ or terminal  
+4. Enter credentials on the Login screen to begin
 
-Directions: This application is dependent on an external database. Without a connection to a compatible database, a User will be unable to login to the application because user names and passwords only exist in the external database.
+---
 
-Run the application. At the Log-in Screen, enter a valid user name and password and click the log-in button. If the user name and password are valid, the user will be directed to the Appointment Main Screen. A message will display to inform the user whether or not there are appointments scheduled to begin within 15 minutes. 
+## 🏅 Awards
 
-Upon navigation to Appointment Main, a table of appointments is shown. Radio buttons allow the user to filter a table of appointments by month or week. Appointments can be added, updated, or deleted from this page. From Appointment Main, the user can navigate to Customer Main, Reports Main, or Exit the application. 
+🏆 *Academic Excellence Award*  
+Awarded by the Vice President of Evaluation Operations for outstanding performance in "Software 2: Advanced Java Concepts". The evaluator shared the following:
 
-Upon navigation to Customer Main, a table of customers is shown. Customers can be added, updated, or deleted from this page. From Customer Main, the user can navigate to Appointment Main, Reports Main, or Exit the application.
+“Overall, the student's project submission is excellent in that it is an example of quality in work, considering the provided requirements. The backend is informative and organized, while the frontend is easy to use and functional. Excellent job!”
 
-Upon navigation to Reports Main, the user can generate the following reports: Contact Schedule, Type and Month, Contact and Month, Customer and Month. From Reports Main, the user can naviagte to Appointment Main, Customer Main, or Exit the application.  
+---
 
-Report Descriptions: This application can generate four different reports from the Reports Main page. First, it can generate a Contact Schedule that provides customer appointments for each contact. Second, it can generate a report that provides a count of the total number of customer appointments by type and month. I chose to create a third report that provides a count of customer appointments by contact and month. This allows Users to determine which contacts are most popular with customers on a monthly basis. This information can be used for performance reviews and contact reward programs. A fourth report provides a count of customer appointments by customer and month. This allows the User to easily track the monthly activity of customers. This information can be used to derive business insights or offer rewards and incentives to customers.
+## 👤 Author
+
+**Jeffrey Robert Lynch**  
+Version 1.0 — *April 12, 2024*
+
+---
+
+## 📄 License
+
+This project is for educational and demonstration purposes only. For commercial use, please contact the author.
