@@ -19,6 +19,7 @@ Version 1.0 — *April 12, 2024*
 ## Features
 
 This full-featured Java application allows users to maintain a robust database of customers and appointments — **complete with support for all time zones and 15 languages**
+
 Additional features include:
 
 - **CRUD Functionality**: Create, Read, Update, and Delete Appointments and Customers in a MySQL database  
