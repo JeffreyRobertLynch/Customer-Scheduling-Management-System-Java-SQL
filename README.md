@@ -1,11 +1,25 @@
 # Customer-Scheduling-Management-System-Java-SQL
 
-Welcome to the **Customer Scheduling Management System**!  
-This full-featured Java application allows users to maintain a robust database of customers and appointments — **complete with support for all time zones and 15 languages**.
+## Awards
+
+**Academic Excellence Award - Software 2: Advanced Java Concepts**  
+Awarded by the Vice President of Evaluation Operations for outstanding performance in "Software 2: Advanced Java Concepts". The evaluator shared the following:
+
+**“Overall, the student's project submission is excellent in that it is an example of quality in work, considering the provided requirements. The backend is informative and organized, while the frontend is easy to use and functional. Excellent job!”**
 
 ---
 
-## 🚀 Features
+## Author
+
+**Jeffrey Robert Lynch**  
+Version 1.0 — *April 12, 2024*
+
+---
+
+## Features
+
+This full-featured Java application allows users to maintain a robust database of customers and appointments — **complete with support for all time zones and 15 languages**
+Additional features include:
 
 - **CRUD Functionality**: Create, Read, Update, and Delete Appointments and Customers in a MySQL database  
 - **Multi-language Support**: UI elements auto-translate based on system language settings  
@@ -23,22 +37,22 @@ This full-featured Java application allows users to maintain a robust database o
 
 ---
 
-## 🧭 Navigation Overview
+## Navigation Overview
 
-### 🔐 Login Screen
+### Login Screen
 - Enter valid username/password (stored in the MySQL database)
 - System logs each attempt and notifies users of upcoming appointments within 15 minutes
 
-### 📅 Appointment Main Screen
+### Appointment Main Screen
 - View filterable table of all appointments
 - Add, update, or delete appointments
 - Navigate to Customer Main, Reports, or Exit
 
-### 👥 Customer Main Screen
+### Customer Main Screen
 - View and manage customer records
 - Navigate to Appointment Main, Reports, or Exit
 
-### 📊 Reports Main Screen
+### Reports Main Screen
 Generate four types of reports:
 1. **Contact Schedule** – View appointments per contact  
 2. **Appointments by Type and Month** – Understand customer trends  
@@ -47,7 +61,7 @@ Generate four types of reports:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Java Version**: Oracle OpenJDK 17.0.8  
 - **IDE**: IntelliJ IDEA Community Edition 2023.2  
@@ -57,9 +71,9 @@ Generate four types of reports:
 
 ---
 
-## 📎 Setup Instructions
+## Setup Instructions
 
-> ⚠️ This application requires an active MySQL database to run. Without it, login authentication and functionality will not work.
+> This application requires an active MySQL database to run. Without it, login authentication and functionality will not work.
 
 1. Clone or download the repo  
 2. Ensure your database schema matches the app's structure  
@@ -68,22 +82,6 @@ Generate four types of reports:
 
 ---
 
-## 🏅 Awards
-
-🏆 *Academic Excellence Award - Software 2: Advanced Java Concepts*  
-Awarded by the Vice President of Evaluation Operations for outstanding performance in "Software 2: Advanced Java Concepts". The evaluator shared the following:
-
-**“Overall, the student's project submission is excellent in that it is an example of quality in work, considering the provided requirements. The backend is informative and organized, while the frontend is easy to use and functional. Excellent job!”**
-
----
-
-## 👤 Author
-
-**Jeffrey Robert Lynch**  
-Version 1.0 — *April 12, 2024*
-
----
-
-## 📄 License
+## License
 
 This project is for educational and demonstration purposes only. For commercial use, please contact the author.
