@@ -9,13 +9,6 @@ Awarded by the Vice President of Evaluation Operations for outstanding performan
 
 ---
 
-## Author
-
-**Jeffrey Robert Lynch**  
-Version 1.0 — *April 12, 2024*
-
----
-
 ## Features
 
 This full-featured Java application allows users to maintain a robust database of customers and appointments — **complete with support for all time zones and 15 languages**
@@ -80,6 +73,13 @@ Generate four types of reports:
 2. Ensure your database schema matches the app's structure  
 3. Run the application via IntelliJ or terminal  
 4. Enter credentials on the Login screen to begin
+
+---
+
+## Author
+
+**Jeffrey Robert Lynch**  
+Version 1.0 — *April 12, 2024*
 
 ---
 
