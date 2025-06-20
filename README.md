@@ -79,6 +79,7 @@ Generate four types of reports:
 ## Author
 
 **Jeffrey Robert Lynch**  
+[LinkedIn](https://www.linkedin.com/in/jeffrey-lynch-350930348)
 Version 1.0 — *April 12, 2024*
 
 ---
