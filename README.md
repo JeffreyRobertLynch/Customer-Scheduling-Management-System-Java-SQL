@@ -7,6 +7,8 @@ Awarded by the Vice President of Evaluation Operations for outstanding performan
 
 **“Overall, the student's project submission is excellent in that it is an example of quality in work, considering the provided requirements. The backend is informative and organized, while the frontend is easy to use and functional. Excellent job!”**
 
+![Award](award/Software_2_Java_Award.pdf)
+
 ---
 
 ## Features
